@@ -6,7 +6,7 @@ import { AuthContext } from '../Context/AuthContext';
 
 
 
-const base_url = "http://localhost:3000/api"
+const base_url = "https://mern-sms-backend.onrender.com/api"
 
 const LogIn = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });
