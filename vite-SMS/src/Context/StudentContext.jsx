@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 
 export const StudentContext = createContext();
 
-const base_url = "http://localhost:3000/api";
+const base_url = "https://mern-sms-backend.onrender.com/api";
 
 const StudentProvider = ({ children }) => {
   const [students, setStudents] = useState([]);
